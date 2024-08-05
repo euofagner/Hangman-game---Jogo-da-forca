@@ -34,6 +34,7 @@ namespace HangmanGame
             InitializeComponent();
             Letters.AddRange("abcdefghijklmnopqrstuvwxyz");
             GameStatus = $"Erros: {erros} de {maxErros}";
+            BindingContext = this;
         }
 
         public string Destaque
